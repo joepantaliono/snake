@@ -10,7 +10,7 @@ const gameBoard = document.getElementById('gameBoard')
 function gameLoop(currentTime){
     if (gameOver) { 
         if (confirm('You lost. Press OK to restart.')) {
-            window.location = '/'
+            window.location = 'https://joepantaliono.github.io/snake/'
         }
         return
     }
